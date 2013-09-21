@@ -1,0 +1,2 @@
+image*.txt
+result*.txt
