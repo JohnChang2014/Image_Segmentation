@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D95894E11676E79800E7BF4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95894E01676E79800E7BF4C /* main.cpp */; };
 		D95894E31676E79800E7BF4C /* CVProject_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D95894E21676E79800E7BF4C /* CVProject_2.1 */; };
+		D95894EF1676E7CF00E7BF4C /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95894ED1676E7CF00E7BF4C /* FileController.cpp */; };
+		D95894F31676E82600E7BF4C /* Cluster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95894F11676E82600E7BF4C /* Cluster.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,11 @@
 
 /* Begin PBXFileReference section */
 		D95894DC1676E79700E7BF4C /* CVProject_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CVProject_2; sourceTree = BUILT_PRODUCTS_DIR; };
-		D95894E01676E79800E7BF4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D95894E01676E79800E7BF4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = CVProject_2/main.cpp; sourceTree = SOURCE_ROOT; };
 		D95894E21676E79800E7BF4C /* CVProject_2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CVProject_2.1; sourceTree = "<group>"; };
+		D95894ED1676E7CF00E7BF4C /* FileController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
+		D95894F01676E7DE00E7BF4C /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		D95894F11676E82600E7BF4C /* Cluster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cluster.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				D95894E01676E79800E7BF4C /* main.cpp */,
+				D95894ED1676E7CF00E7BF4C /* FileController.cpp */,
+				D95894F01676E7DE00E7BF4C /* config.h */,
+				D95894F11676E82600E7BF4C /* Cluster.cpp */,
 				D95894E21676E79800E7BF4C /* CVProject_2.1 */,
 			);
 			path = CVProject_2;
@@ -118,6 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95894E11676E79800E7BF4C /* main.cpp in Sources */,
+				D95894EF1676E7CF00E7BF4C /* FileController.cpp in Sources */,
+				D95894F31676E82600E7BF4C /* Cluster.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +220,7 @@
 				D95894E81676E79800E7BF4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
